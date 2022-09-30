@@ -1,0 +1,239 @@
+
+ .header{
+  background-color:floralwhite;
+  
+  padding-top: 25px;
+ }
+  h1{
+    color: #e29578; 
+    font-size: 4em;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-shadow:-3px 3px 3px rgb(97, 19, 19);
+    
+  }
+
+  h2{
+    color:#e29578; 
+    font-size: 2.5em;
+    font-family: degular-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+  }
+
+  
+
+  @media only screen and (max-width:768px){
+    h1{
+      font-size: 3em;
+    }
+    h2{
+      font-size: 2em;
+    }
+  }
+
+  ion-icon {
+    font-size: 32px;
+    color: #e29578;
+    background-color: floralwhite;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+    
+  }
+
+  ion-icon:hover,:active{
+  
+    color: #c05e3b;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    
+  }
+    
+
+  .home{
+    text-align: center;
+  }
+
+
+  .nav-tabs .nav-link {
+    font-family: degular-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    color: gray;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000000;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 3px solid ;
+}
+
+
+.gallery {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+.gallery:hover .gallery__image {
+  filter:grayscale(0.75);
+}
+.gallery__column {
+  
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+@media only screen and (max-width:768px) {
+  .gallery{
+    display:block;
+    width: 100%;
+    padding: 1em;
+  }
+  
+  }
+
+  @media only screen and (max-width:768px) {
+    .gallery__column{
+      display:block;
+      width: 100%;
+      padding: 1em;
+    }
+    
+    }
+
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery__link:hover .gallery__caption {
+  opacity: 1;
+}
+.gallery__thumb {
+  position: relative;
+}
+.gallery__image {
+  box-shadow:-3px 5px 15px #000;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
+
+/*gallery 2*/
+
+.gallery2 {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+.gallery2:hover .gallery__image {
+  filter:grayscale(0.75);
+}
+.gallery2__column {
+  
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+@media only screen and (max-width:768px) {
+  .gallery2{
+    display:block;
+    width: 100%;
+    padding: 1em;
+  }
+  
+  }
+
+  @media only screen and (max-width:768px) {
+    .gallery2__column{
+      display:block;
+      width: 100%;
+      padding: 1em;
+    }
+    
+    }
+
+.gallery2__link {
+  margin: 2px;
+  overflow: hidden;
+}
+.gallery2__link:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery2__link:hover .gallery__caption {
+  opacity: 1;
+}
+.gallery2__thumb {
+  position: relative;
+}
+.gallery2__image {
+  box-shadow:-3px 5px 15px #000;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery2__image:hover {
+  transform: scale(1.1);
+}
+.gallery2__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
+
+
+.footer{
+  background-color: #e29578;
+  font-family: degular-text,sans-serif;
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  height: 40px;
+  max-width: 100%;
+  margin-top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ }
